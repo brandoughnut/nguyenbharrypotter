@@ -20,7 +20,6 @@ export default function Home() {
     document.body.style.backgroundColor = "#010102";
     const getData = async () => {
       const data = await getHarryPotterData();
-      console.log(data);
       if(isNav){
         setFirstArr(data.slice(0, 100));
         setSecondArr(data.slice(101, 200));
