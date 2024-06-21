@@ -15,13 +15,13 @@ const RowComponent = (props: {row:string, rowArr:any}) => {
             {
                 props.rowArr && props.rowArr.map((character:any, idx:number) => {
                     return (
-                        <div className='me-1 w-[175px]' key={idx}>
+                        <div className='notZoom me-1 w-[175px]' key={idx}>
                             <img
                             onClick={() => {
                                 setCharacterArr(character);
                                 setIsOpen(true);
                             }}
-                            className='cursor-pointer h-[275px] w-full object-cover' src={character.image || "/images/emptyavatar.png"} alt="Harry Potter character" />
+                            className='zoom cursor-pointer h-[275px] object-cover w-full' src={character.image || "/images/emptyavatar.png"} alt="Harry Potter character" />
                             <p className='text-white w-[200px]'>{character.name}</p>
                             
 
