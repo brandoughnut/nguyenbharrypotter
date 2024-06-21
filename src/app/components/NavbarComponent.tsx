@@ -8,7 +8,6 @@ const NavbarComponent = (props: {isNav:boolean, setIsNav:(input:boolean) => void
 
   return (
     <div className='h-[80px] flex px-[60px] bg-[#080707] sticky top-0 z-50'>
-        {/* <Image className='w-auto h-[50px] my-auto cursor-pointer' src={netflixlogo} alt="netflix logo" /> */}
         <h1 className='text-[#E7442E] font-semibold text-[45px] my-auto cursor-pointer'><a href="#">HarryPotterflix</a></h1>
         <p 
         onClick={() => {

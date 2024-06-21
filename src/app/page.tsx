@@ -9,7 +9,6 @@ import ModalComponent from "./components/ModalComponent";
 
 export default function Home() {
 
-  const [fullArr, setFullArr] = useState<any>();
   const [firstArr, setFirstArr] = useState<any[]>();
   const [secondArr, setSecondArr] = useState<any[]>();
   const [thirdArr, setThirdArr] = useState<any[]>();
